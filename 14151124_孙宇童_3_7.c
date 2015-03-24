@@ -13,7 +13,7 @@ int main(void)
 		c=2*pi*r;
 		s1=pi*r*r;
 		s2=4*pi*r*r;
-		v1=4/3*pi*r*r*r;
+		v1=4.0/3.0*pi*r*r*r;
 		v2=s1*h;
 //以下代码是输出所要计算的值
 		printf("圆周长为：%.2lf\n",c);
