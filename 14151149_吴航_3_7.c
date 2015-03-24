@@ -1,21 +1,16 @@
-#include<stdio.h>
-#include<math.h>
-
-int main()
-{
-	float a,b,c,d,e,r,h,pi;
-	pi=3.1415926;
-	printf('输入半径r,输入高h');
-	scanf('r=%f,h=%f,'&r,&h);
-	a=2*pi*r;
-	b=pi*r*r;
-	c=4*pi*r*r;
-	d=4*pi*r*r*r/3;
-	e=a*h;
-	printf('圆周长为：%6.2f\n',a);
-	printf('圆面积为：%6.2f\n',b);
-	printf('圆球表面积为：%6.2f\n',c);
-	printf('圆球体积为：%6.2f\n',d);
-	printf('圆柱体积为：%6.2f\n',e);
-	return 0;
+#include<stdio.h>     
+#define Pi 3.1416      
+#include <math.h>
+int main()     
+{      
+	float r,h,c,s,S,v,V;
+	printf('圆半径r,圆柱高h:');
+	scanf("%f,%f",&r,&h);
+	c=2*Pi*r;
+	s=Pi*pow(r,2);
+	S=4*Pi*pow(r,2);
+	v=(4.0/3)*Pi*pow(r,3);
+	V=Pi*h*pow(r,2);
+	printf("圆周长:%.2f\n圆面积:%.2f\n圆球表面积:%.2f\n圆球体积:%.2f\n圆柱体积:%.2f\n",c,s,S,v,V);
+	return 0;                      
 }
