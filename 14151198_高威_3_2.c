@@ -13,13 +13,13 @@ int main()
 	p1 = p0 * (1 + r5 * 5);
 	p2 = p0 * (1 + 2 * r2) *(1 + 3 * r3);
 	p3 = p0 * (1 + 3 * r3) *(1 + 2 * r2);
-    p4 = p0 * pow(1 + r1 , 5);
-    p5 = p0 * pow(1 + r0/4, 4 * 5);
+    	p4 = p0 * pow(1 + r1 , 5);
+    	p5 = p0 * pow(1 + r0/4, 4 * 5);
 	printf("p1=%f\n",p1);
 	printf("p2=%f\n",p2);
-    printf("p3=%f\n",p3);
-    printf("p4=%f\n",p4);
-    printf("p5=%f\n",p5);
+    	printf("p3=%f\n",p3);
+    	printf("p4=%f\n",p4);
+    	printf("p5=%f\n",p5);
 	return 0;
 
 }
