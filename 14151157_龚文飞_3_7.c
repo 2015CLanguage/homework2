@@ -5,7 +5,7 @@ void main()
     float r,h,l,s,a,b,c,Pi;
 	Pi=3.1415926;
 	scanf("%f%f",&r,&h);
-    l=2*Pi*r;
+        l=2*Pi*r;
 	s=Pi*pow(r,2);
 	a=4*Pi*pow(r,2);
 	b=4/3*Pi*pow(r,3);
