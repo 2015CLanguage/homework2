@@ -1,0 +1,17 @@
+# include<stdio.h>
+# include<math.h>
+int main()
+{
+	float d,p,r;
+	printf("贷款数额：");
+	scanf("%f",&d);
+	putchar('\n');
+	printf("每月还款额：");
+	scanf("%f",&p);
+	putchar('\n');
+	printf("月利率：");
+	scanf("%f",&r);
+	putchar('\n');
+	printf("还款时间（所需月数）:%.1f\n",(log10(p/(p-d*r))/log10(1+r)));
+	return 0;
+}
