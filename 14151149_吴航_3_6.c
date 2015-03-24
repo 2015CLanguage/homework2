@@ -15,6 +15,11 @@ int main()
 	a4=c4+4;
 	a5=c5+4;
 	printf("answer:%c%c%c%c%c\n",a1,a2,a3,a4,a5);
-
+	putchar(a1);
+	putchar(a2);
+	putchar(a3);
+	putchar(a4);
+	putchar(a5);
+	putchar('\n');
 	return 0;
 }
