@@ -12,7 +12,7 @@ void main()
 	c=Pi*pow(r,2)*h;
     printf("圆周长=%.2f\n",l);
      printf("圆面积=%.2f\n",s);
-	  printf("圆球表面积=%.2f\n",a);
-	   printf("圆球体积=%.2f\n",b);
-	    printf("圆柱体体积=%.2f\n",c);
+      printf("圆球表面积=%.2f\n",a);
+       printf("圆球体积=%.2f\n",b);
+        printf("圆柱体体积=%.2f\n",c);
 }
