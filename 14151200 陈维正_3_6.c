@@ -13,7 +13,7 @@ int main()
 	c3=c3+4;
 	c4=c4+4;
 	c5=c5+4;
-	
+	printf("密码是：");
 	putchar(c1);
 	putchar(c2);
 	putchar(c3);
