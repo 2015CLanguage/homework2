@@ -4,7 +4,8 @@ int main()
 {
 	float a,b,c,d,e,h,r;
 	float pi=3.14;
-	scanf("h=%f r=%f",&h,&r);
+	printf("跟我学，输入：r，h  (中文逗号)\n");
+	scanf("%f，%f",&r,&h);
 	a=2*pi*r;
 	b=pi*r*r;
 	c=4*pi*r*r;
