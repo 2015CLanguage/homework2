@@ -11,7 +11,7 @@ int main()
 	l=2*pi*r;
 	s1=pi*pow(r,2);
 	s2=4*pi*pow(r,2);
-	v1=(4/3)*pi*pow(r,3);
+	v1=(4.0/3.0)*pi*pow(r,3);
 	v2=s1*h;
 	printf("圆周长：%6.2f\n",l);
 	printf("圆面积：%6.2f\n",s1);
