@@ -17,6 +17,6 @@ int main()
 	putchar(c3);
 	putchar(c4);
 	putchar(c5);
-	printf("\n%c%c%c%c%c\n",c1,c2,c3,c4,c5);
+	printf("%c%c%c%c%c\n",c1,c2,c3,c4,c5);
 	return 0;
 }
